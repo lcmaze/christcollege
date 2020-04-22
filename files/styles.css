@@ -532,6 +532,37 @@ textarea::placeholder {
     font-size: 14px;
 }
 
+
+/* all page banner */
+
+.bannerx {
+    background-image: url('../images/bgs.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-weight: 600;
+    font-size: 35px;
+    padding-top: 260px;
+    padding-bottom: 120px;
+}
+
+
+/* about */
+
+.about h2 {
+    color: #28277a;
+    font-weight: 600;
+}
+
+.about h6 {
+    color: #57549b;
+    text-transform: uppercase;
+}
+
+.about p {
+    color: #929292;
+}
+
 @media (max-width: 767.98px) {
     .home-bg .row {
         padding: 4rem 0rem;
@@ -548,6 +579,10 @@ textarea::placeholder {
     .achievers .details p {
         width: 90%;
     }
+    .bannerx {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -560,6 +595,10 @@ textarea::placeholder {
     .achievers .details p {
         width: 80%;
     }
+    .bannerx {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -569,6 +608,15 @@ textarea::placeholder {
     .achievers .details p {
         width: 70%;
     }
+    .bannerx {
+        padding-top: 180px;
+        padding-bottom: 40px;
+    }
 }
 
 @media (min-width: 1200px) {}
+
+.middler {
+    display: flex;
+    align-items: center;
+}
